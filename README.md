@@ -38,5 +38,11 @@ We identity two things<br/>
 Higher loan amount may potentially contribute to loan default case<br/>
 <img src=p1a1.png>
 <br/>
-2) 
+2) Interest Rate and Default Case<br/>
+There are strong correlation between Interest Rate and Default Case, the higher the interest rate, the higher the possisblity of loan default case may happen<br/>
+<img src=p2a.png>
+<br/>
+Next, we use heatmap to verify the correlations between features and label (default case)
+
+<img src=p3a.png>
 
