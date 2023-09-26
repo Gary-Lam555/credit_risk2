@@ -35,5 +35,5 @@ use jupyter notebook to created multiple machine learning models.<br/>
 We have conducted exploratory data analysis in this way. We try to use boxplot to identify the correlation between the features (Age, Income, Emp_length, amount, rates, percent_income, cred_length to default case. 
 We identity two things
 1) 
-
+<img src=”https://github.com/Gary-Lam555/credit_risk2/blob/main/p1a.png)https://github.com/Gary-Lam555/credit_risk2/blob/main/p1a.png”>
 <H1>test</H1>
