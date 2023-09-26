@@ -2,10 +2,10 @@
 This repositionary contains the capstone project 2
 The capstone project 1 is located at https://github.com/Gary-Lam555/credit_risk
 
-the dataset of capstone porject 2 can be can be found from https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis, the dataset is about loan applicant data for credit risk analysis 
-The dataset contains the following columns. 
-Column Descriptions: 
-ID: Unique identifier for each loan applicant. 
+the dataset of capstone porject 2 can be can be found from https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis, the dataset is about loan applicant data for credit risk analysis <p>
+The dataset contains the following columns. <p>
+Column Descriptions: <p>
+ID: Unique identifier for each loan applicant. <p>
 Age: Age of the loan applicant. 
 Income: Income of the loan applicant. 
 Home: Home ownership status (Own, Mortgage, Rent). 
