@@ -31,7 +31,7 @@ create several machine learning models based on the above dataset and locate a b
 use jupyter notebook to created multiple machine learning models.<br/>
 <br/>
 
-<h2>Exploratory Data Analysis (EDA)</h2>
+<h2>Initial Report and EDA</h2>
 <b>BoxPlot</b><br/>
 We have conducted exploratory data analysis in this way. We try to use boxplot to identify the correlation between the features (Age, Income, Emp_length, amount, rates, percent_income, cred_length to default case. </br/>
 We identity two things<br/>
@@ -55,4 +55,6 @@ We change the Default column value for pairplot Y-> 1 and N->0, from pairplot of
 we try to look into the relationship between Loan amount, loan rate and default case toghether, we can't see there is not strong relationship between loan amount and loan rate, however, we can see <br/>
 strong relationship between loan rate and default case,br/>
 <img src=p5a.png>
+
+<h2>Data Cleaning and Data Preparation</h2>
 
