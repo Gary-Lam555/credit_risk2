@@ -34,6 +34,7 @@ use jupyter notebook to created multiple machine learning models.<br/>
 <h2>Exploratory Data Analysis (EDA)</h2>
 We have conducted exploratory data analysis in this way. We try to use boxplot to identify the correlation between the features (Age, Income, Emp_length, amount, rates, percent_income, cred_length to default case. 
 We identity two things
-1) 
+1) Loan Amount and Default Case
+Higher loan amount may potential contribute to loan default case
 <img src=p1a.png>
 <H1>test</H1>
