@@ -6,7 +6,7 @@ The capstone project 1 is located at https://github.com/Gary-Lam555/credit_risk<
 <b>Research question you intend to answer</b></br>
 In this project, we would like created a reliable machine learning prediction model to predict a new loan whether it may be becoming default (loanee stops to return the loan money) based on a given set of features.<br/>
 </br>
-<b>Expected data sources and structure</b>
+<b>Expected data sources and structure</b><br/>
 The dataset can be found from https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis , the dataset is about loan application data for credit risk analysis <br/>
 The dataset is presented in csv file format with the following columns </br>
 <table>
@@ -24,10 +24,10 @@ The dataset is presented in csv file format with the following columns </br>
 <tr><td>Cred_Length</td><td> Length of the applicant's credit history.</td></tr>
 </table>
 </br>
-<b>Expected results</b>
+<b>Expected results</b><br/>
 create several machine learning models based on the above dataset and locate a best model for prediction of loan default case.<br/>
 
-<b>Expected techniques</b>
+<b>Expected techniques</b><br/>
 use jupyter notebook to created multiple machine learning models.<br/>
 
 
