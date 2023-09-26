@@ -5,7 +5,6 @@ The capstone project 1 is located at https://github.com/Gary-Lam555/credit_risk
 the dataset of capstone porject 2 can be can be found from https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis, the dataset is about loan applicant data for credit risk analysis <p>
 The dataset contains the following columns. </br>
 Column Descriptions: </br>
-
 <table>
 <tr><td>ID</td><td>Unique identifier for each loan applicant. </td></tr>
 <tr><td>Age</td><td> Age of the loan applicant. </td></tr>
@@ -18,8 +17,9 @@ Column Descriptions: </br>
 <tr><td>Status</td><td> Loan approval status (Fully Paid, Charged Off, Current). </td></tr>
 <tr><td>Percent_Income</td><td> Loan amount as a percentage of income. </td></tr>
 <tr><td>Default</td><td> Whether the loan should be approved (Yes, No). </td></tr>
-Cred_Length</td><td> Length of the applicant's credit history.</td></tr>
+<tr><td>Cred_Length</td><td> Length of the applicant's credit history.</td></tr>
 </table>
+
 In this project, we will use the features (Age, Income, Home, Emp_Length, Intent, Amount, Rate, Status, Precent_Income, Cred_Length) as features to train various prediction models and predict whether the default case will have happen (loan applicant stop the payment of the loan returns)<br>
 
 Exploratory Data Analysis (EDA) is conducted 
