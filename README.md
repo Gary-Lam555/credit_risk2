@@ -32,7 +32,7 @@ use jupyter notebook to created multiple machine learning models.<br/>
 <br/>
 
 <h2>Exploratory Data Analysis (EDA)</h2>
-<p>BoxPlot</p>
+<b>BoxPlot</b>
 We have conducted exploratory data analysis in this way. We try to use boxplot to identify the correlation between the features (Age, Income, Emp_length, amount, rates, percent_income, cred_length to default case. </br/>
 We identity two things<br/>
 1) Loan Amount and Default Case<br/>
@@ -43,9 +43,11 @@ Higher loan amount may potentially contribute to loan default case<br/>
 There are strong correlation between Interest Rate and Default Case, the higher the interest rate, the higher the possisblity of loan default case may happen<br/>
 <img src=p2a.png>
 <br/>
-<p>Heatmap</p>
+<b>Heatmap</b>
 Next, we use heatmap to verify the correlations between features and label (default case)<br/>
 we notice among all features, Rate/loan rate has the highest correlation with default case (0.5) , however for the Amount/loan amount, it doesn't has strong correlation (0.04) being shown on the map 
-
 <img src=p3a.png>
+<br/>
+Pairplot<br/>
+<img src=p4a.png>
 
