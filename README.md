@@ -2,7 +2,7 @@
 This repositionary contains the capstone project 2<br/>
 The capstone project 1 is located at https://github.com/Gary-Lam555/credit_risk<br/>
 
-<h3>Problem Statement</h3>
+<h2>Problem Statement</h2>
 <b>Research question you intend to answer</b></br>
 In this project, we would like created a reliable machine learning prediction model to predict a new loan whether it may be becoming default (loanee stops to return the loan money) based on a given set of features.<br/>
 </br>
@@ -26,13 +26,11 @@ The dataset is presented in csv file format with the following columns </br>
 </br>
 <b>Expected results</b><br/>
 create several machine learning models based on the above dataset and locate a best model for prediction of loan default case.<br/>
-
+<br/>
 <b>Expected techniques</b><br/>
 use jupyter notebook to created multiple machine learning models.<br/>
+<br/>
 
-
-In this project, we will use the features (Age, Income, Home, Emp_Length, Intent, Amount, Rate, Status, Precent_Income, Cred_Length) as features to train various prediction models and predict whether the default case will have happen (loan applicant stop the payment of the loan returns)<br>
-
-Exploratory Data Analysis (EDA) is conducted 
+<h2>Exploratory Data Analysis (EDA)</h2>
 
 <H1>test</H1>
