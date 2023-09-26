@@ -36,7 +36,7 @@ We have conducted exploratory data analysis in this way. We try to use boxplot t
 We identity two things<br/>
 1) Loan Amount and Default Case<br/>
 Higher loan amount may potentially contribute to loan default case<br/>
-<img src=p1a.png>
+<img src=p1a1.png>
 <br/>
 2) 
 
