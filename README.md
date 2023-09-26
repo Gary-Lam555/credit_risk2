@@ -51,4 +51,7 @@ we notice among all features, Rate/loan rate has the highest correlation with de
 <b>Pairplot</b><br/>
 We change the Default column value for pairplot Y-> 1 and N->0, from pairplot of Rate feature, we aware default case Y is on the top.<br/>
 <img src=p4a.png>
+<b>Scatterplot</b><br/>
+we try to look into the relationship between Loan amount, loan rate and default case toghether<br/>
+<img src=p5a.png>
 
