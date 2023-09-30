@@ -55,6 +55,23 @@ We change the Default column value for pairplot Y-> 1 and N->0, from pairplot of
 we try to look into the relationship between Loan amount, loan rate and default case toghether, we can't see there is not strong relationship between loan amount and loan rate, however, we can see <br/>
 strong relationship between loan rate and default case,br/>
 <img src=p5a.png>
+<br/>
+<h2>Data Cleaning and Data Preparation</h2><br/>
+Before we fit the data into our model, we have conducted some basic cleaning activities on the dataset, this includes dropping off the null values from 
+dataset (using df.dropna()). We learn that the null values are concentrated at column Emp_length and Rate. <br/>
+Emp_length         895<br/>
+Rate              3116<br/>
+dtype: int64<br/>
+<br/>
+We also need to learn the values distribution per each column, this is an important step as we will need to understand whether the column whether contains numeric values or and categorical values (numeric features/categorical features), this will affect how we are going to transform the features later below. <br/>
+An example of value distribution can be found from below<br/>
+Home feature / Home column<br/>
+RENT        14551<br/>
+MORTGAGE    11801<br/>
+OWN          2192<br/>
+OTHER          94<br/>
+<br/>
+Next, we split our dataset into training dataset and testing dataset in a ratio of 70 to 30. We conduct data transformation right the data split, simply because we don't want to have data leaking in between the two datasets. After that, we conduct data transformation (standardscaler and onehotencoder) for training dataset and test dataset separately. <br/>
+<br/>
 
-<h2>Data Cleaning and Data Preparation</h2>
-
+    
