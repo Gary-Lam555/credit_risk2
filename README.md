@@ -93,8 +93,6 @@ We will use randomizedserchcv to find the best parameters (C, gamma, kernel) for
 'C': [0.1,1,10]<br/>
 'gamma': [1,0.1,0.01,0.001]<br/>
 'kernel': ['rbf', 'sigmoid', 'linear']<br/>
-
-
-grid2 = RandomizedSearchCV(svm.SVC() ,param_grid2,refit=True,verbose=2, cv=10)
+<img src=p12a.PNG>
 
     
