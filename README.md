@@ -90,9 +90,17 @@ The historgram of the model comparation can be found from below<br/>
 <br/>
 Next we are trying to fine tuning the SVM model to improve the prediction rate further. <br/>
 We will use randomizedserchcv to find the best parameters (C, gamma, kernel) for the model. <br/>
-'C': [0.1,1,10]<br/>
-'gamma': [1,0.1,0.01,0.001]<br/>
-'kernel': ['rbf', 'sigmoid', 'linear']<br/>
+C: [0.1,1,10]<br/>
+gamma: [1,0.1,0.01,0.001]<br/>
+kernel: ['rbf', 'sigmoid', 'linear']<br/>
+the score is returned as 0.823324, it is slightly woser than the SVM model before tunning. Considering
+fitting time is too long 0.41 sec, we turn our model to linear regression
 <img src=p12a.PNG>
+We conduct a tuning of linear regression model via randomizedsearchcv, we want to find the best parameters of C, penalty and solver. <br/>
+C = np.logspace(0, 4, num=10)<br/>
+penalty = ['l1', 'l2']<br/>
+solver = ['liblinear', 'saga']<br/>
+We find the best parameters of linear regression model are C=2.7825594022071245, penalty='l1', solver='saga'. With these parameters, the score we got is 0.825535. 
+
 
     
