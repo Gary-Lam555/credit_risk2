@@ -73,5 +73,6 @@ OTHER          94<br/>
 <br/>
 Next, we split our dataset into training dataset and testing dataset in a ratio of 70 to 30. We conduct data transformation right the data split, simply because we don't want to have data leaking in between the two datasets. After that, we conduct data transformation (standardscaler and onehotencoder) for training dataset and test dataset separately. <br/>
 <br/>
+<h2>Model Engineering and Model Evaluation</h2>
 
     
