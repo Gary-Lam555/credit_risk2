@@ -82,7 +82,8 @@ decision tree<br/>
 Logistic regression<br/>
 SVM<br/>
 
-
+We evaluate these models based on the test data, the score comparation table can be found below.
+<img src=p10a.png>
 
 
     
