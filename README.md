@@ -88,5 +88,13 @@ We evaluate these models based on the test data, the score comparation table can
 The historgram of the model comparation can be found from below<br/>
 <img src=p11a.PNG>
 <br/>
+Next we are trying to fine tuning the SVM model to improve the prediction rate further. <br/>
+We will use randomizedserchcv to find the best parameters (C, gamma, kernel) for the model. <br/>
+'C': [0.1,1,10]<br/>
+'gamma': [1,0.1,0.01,0.001]<br/>
+'kernel': ['rbf', 'sigmoid', 'linear']<br/>
+
+
+grid2 = RandomizedSearchCV(svm.SVC() ,param_grid2,refit=True,verbose=2, cv=10)
 
     
