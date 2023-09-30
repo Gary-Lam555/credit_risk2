@@ -84,8 +84,9 @@ SVM<br/>
 
 We evaluate these models based on the test data, the score comparation table can be found below. We notice the highest score model is SVM.<br/>
 <img src=p10a.PNG>
+<br/>
 The historgram of the model comparation can be found from below<br/>
 <img src=p11a.PNG>
-
+<br/>
 
     
