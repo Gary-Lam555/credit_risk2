@@ -73,7 +73,7 @@ OTHER          94<br/>
 <br/>
 Next, we split our dataset into training dataset and testing dataset in a ratio of 70 to 30. We conduct data transformation right the data split, simply because we don't want to have data leaking in between the two datasets. After that, we conduct data transformation (standardscaler and onehotencoder) for training dataset and test dataset separately. <br/>
 Our dataset expands to 18 features
-<img src=p5a.png>
+<img src=p9a.png>
 <br/>
 <h2>Model Engineering and Model Evaluation</h2>
 4 different models are built and evaluated, we would like to find out the best model to predict the default case (Yes) based on the provided features (18 features after the transformation). These models are <br/>
