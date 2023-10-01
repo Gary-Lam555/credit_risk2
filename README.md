@@ -93,16 +93,20 @@ We will use randomizedserchcv to find the best parameters (C, gamma, kernel) for
 C: [0.1,1,10]<br/>
 gamma: [1,0.1,0.01,0.001]<br/>
 kernel: ['rbf', 'sigmoid', 'linear']<br/>
+<br/>
 the score is returned as 0.823324, it is slightly woser than the SVM model before tunning and  
 Considering the fitting time is too long as it requires 0.41 sec. The model is resource demanding and may not be fit for production use. We therefore turn our attention to linear regression<br/>
 <img src=p12a.PNG><br/>
+<br/>
 We conduct similar parameters tuning for linear regression model via randomizedsearchcv, we want to find the best parameters of C, penalty and solver. <br/>
 C = np.logspace(0, 4, num=10)<br/>
 penalty = ['l1', 'l2']<br/>
 solver = ['liblinear', 'saga']<br/>
+<br/>
 We got the answer from randomizedsearchcv for best parameters of linear regression model are C=2.7825594022071245, penalty='l1', solver='saga' and the score for these parameters with the model is 0.825535. The score is improved from 0.825419 to 0.825535. <br/>
 <img src=p13a.PNG><br/>
 <img src=p14a.PNG><br/>
+<br/>
 We create the confusion matrix for fine tunned linear regression model. By using the confusion matrix, we can understand the 4 different combinations of predicted and actual values. They can be found from below<br/>
 <img src=p15a.PNG>
 <br/>
@@ -110,8 +114,12 @@ True Positive(TP)  =  471<br/>
 False Positive(FP) =  481<br/>
 True Negative(TN)  =  6622<br/>
 False Negative(FN) =  1018<br/>
-We then look into the values of precision and recall values. 
-For recall value, it is 0.31631967763599733, recall value explains how many positive case the model predicted correctly. 
+<br/>
+We then look into the values of precision and recall values. <br/>
+For recall value, it is 0.31631967763599733, from all the classes we have predicted as positive, how many are actually positive or the formula of recall is TP/TP + FN . We get only 0.31 simply beacause the model has failed to predict 1018 positive cases and only 471 positive cases are reported correctly. <br/>
+For precision, we get the result of 0.494,  from all the classes we have predicted as positive, how many are actually positive.
+
+
 
 We get Recall value for logistic regression model as is from all the positive classes, how many we predicted correctly.  from all the classes we have predicted as positive, how many are actually positive.
 
