@@ -5,7 +5,7 @@ The capstone project 1 is located at https://github.com/Gary-Lam555/credit_risk<
 <h2>Problem Statement</h2>
 <b>Research question you intend to answer</b></br>
 In this project, we would like created a reliable machine learning prediction model to predict a new loan whether it may be becoming default (loanee stops to return the loan money) based on a given set of features.<br/>
-</br>
+<br/>
 <b>Expected data sources and structure</b><br/>
 The dataset can be found from https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis , the dataset is about loan application data for credit risk analysis <br/>
 The dataset is presented in csv file format with the following columns </br>
@@ -95,7 +95,7 @@ gamma: [1,0.1,0.01,0.001]<br/>
 kernel: ['rbf', 'sigmoid', 'linear']<br/>
 the score is returned as 0.823324, it is slightly woser than the SVM model before tunning and  
 Considering the fitting time is too long as it requires 0.41 sec. The model is resource demanding and may not be fit for production use. We therefore turn our attention to linear regression<br/>
-<img src=p12a.PNG>
+<img src=p12a.PNG><br/>
 We conduct similar parameters tuning for linear regression model via randomizedsearchcv, we want to find the best parameters of C, penalty and solver. <br/>
 C = np.logspace(0, 4, num=10)<br/>
 penalty = ['l1', 'l2']<br/>
@@ -110,7 +110,10 @@ True Positive(TP)  =  471<br/>
 False Positive(FP) =  481<br/>
 True Negative(TN)  =  6622<br/>
 False Negative(FN) =  1018<br/>
+We then look into the values of precision and recall values. 
+For recall value, it is 0.31631967763599733, recall value explains how many positive case the model predicted correctly. 
 
+We get Recall value for logistic regression model as is from all the positive classes, how many we predicted correctly.  from all the classes we have predicted as positive, how many are actually positive.
 
 
 
