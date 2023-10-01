@@ -93,14 +93,17 @@ We will use randomizedserchcv to find the best parameters (C, gamma, kernel) for
 C: [0.1,1,10]<br/>
 gamma: [1,0.1,0.01,0.001]<br/>
 kernel: ['rbf', 'sigmoid', 'linear']<br/>
-the score is returned as 0.823324, it is slightly woser than the SVM model before tunning. Considering
-fitting time is too long 0.41 sec, we turn our model to linear regression
+the score is returned as 0.823324, it is slightly woser than the SVM model before tunning and  
+Considering the fitting time is too long as it requires 0.41 sec. The model is resource demanding and may not be fit for production use. We therefore turn our attention to linear regression<br/>
 <img src=p12a.PNG>
-We conduct a tuning of linear regression model via randomizedsearchcv, we want to find the best parameters of C, penalty and solver. <br/>
+We conduct similar parameters tuning for linear regression model via randomizedsearchcv, we want to find the best parameters of C, penalty and solver. <br/>
 C = np.logspace(0, 4, num=10)<br/>
 penalty = ['l1', 'l2']<br/>
 solver = ['liblinear', 'saga']<br/>
-We find the best parameters of linear regression model are C=2.7825594022071245, penalty='l1', solver='saga'. With these parameters, the score we got is 0.825535. 
+We got the answer from randomizedsearchcv for best parameters of linear regression model are C=2.7825594022071245, penalty='l1', solver='saga' and the score for these parameters with the model is 0.825535. The score is improved from 0.825419 to 0.825535. <br/>
+<img src=p13a.PNG>
+
+
 
 
     
