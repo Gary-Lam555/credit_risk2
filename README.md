@@ -102,6 +102,7 @@ penalty = ['l1', 'l2']<br/>
 solver = ['liblinear', 'saga']<br/>
 We got the answer from randomizedsearchcv for best parameters of linear regression model are C=2.7825594022071245, penalty='l1', solver='saga' and the score for these parameters with the model is 0.825535. The score is improved from 0.825419 to 0.825535. <br/>
 <img src=p13a.PNG>
+<img src=p14a.PNG>
 
 
 
