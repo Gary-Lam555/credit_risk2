@@ -116,12 +116,16 @@ True Negative(TN)  =  6622<br/>
 False Negative(FN) =  1018<br/>
 <br/>
 We then look into the values of precision and recall values. <br/>
-For recall value, it is 0.31631967763599733, from all the classes we have predicted as positive, how many are actually positive or the formula of recall is TP/TP + FN . We get only 0.31 simply beacause the model has failed to predict 1018 positive cases and only 471 positive cases are reported correctly. <br/>
-For precision, we get the result of 0.494,  from all the classes we have predicted as positive, how many are actually positive.
+For recall value, it is 0.31631967763599733, from all the classes we have predicted as positive, how many are actually positive or the formula of recall is TP/(TP + FN) . We get only 0.31 simply beacause the model has failed to predict 1018 positive cases and only 471 positive cases are reported correctly. <br/>
+For precision, we get the result of 0.494,  from all the classes we have predicted as positive, 49.4% are actually positive. Precision formula can be calculated as TP/(TP + FP). By using precision value, we understand for those cases predicted by our model, half of them are correct. In other words, precision is mearsuring the quality of th model.
+<br/>
+As the model can achieve around 50% of prevision, we believe that we can use this model to predict the potential default case of loan payment (not able to return payment). Once we deploy the model to the production, we can continue to fine tune the model.
+<br/>
 
 
 
-We get Recall value for logistic regression model as is from all the positive classes, how many we predicted correctly.  from all the classes we have predicted as positive, how many are actually positive.
+
+
 
 
 
